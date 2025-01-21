@@ -14,7 +14,7 @@ int main(){
     double I = cos(45);//f
     double J = tan(45);//f
 
-    printf("\n%d",D);
+    printf("\n%d",C);
 
     return 0;
 }

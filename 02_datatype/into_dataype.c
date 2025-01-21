@@ -19,7 +19,7 @@ int main(){
     printf("%f\n", c);
     printf("%lf\n", d);
     printf("%d\n", e);
-    printf("%c\n", f);
+    printf("%d\n", f);
     printf("%c\n", g);
     printf("%d\n", h);
     printf("%d\n", i);
