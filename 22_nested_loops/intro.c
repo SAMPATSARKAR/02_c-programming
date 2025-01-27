@@ -10,10 +10,10 @@ int main(){
     printf("\nEnter number of columns: ");
     scanf("%d",&columns);
 
-    scanf("%c");
+    // scanf(" %c");
 
     printf("\nEnter symbol to use: ");
-    scanf("%c",&symbol);
+    scanf(" %c",&symbol);// by giving space in %c we can ignore leading whitespaces.
 
     for (int i = 1; i<= rows; i++)
     {
