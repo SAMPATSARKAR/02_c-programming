@@ -229,6 +229,10 @@
 //     }
 //     return 0;
 // }
+//-------------------------------------question--------------------------------------------------------------------------------
+
+// DIAMOND
+
 // #include <stdio.h>
 
 // void printDiamond(int n) {
@@ -267,6 +271,8 @@
 //         printf("\n");
 //     }
 // }
+
+// DIAMOND
 
 // int main() {
 //     int n = 5; // Diamond size
@@ -310,6 +316,9 @@
 //     }
 //     return 0;
 // }
+
+// FIBO
+
 // #include <stdio.h>
 
 //     void fibo(int n)
@@ -342,23 +351,140 @@
 //         fibo(16);
 //         return 0;
 //     }
+
+// FIBONACI
+
+// #include <stdio.h>
+// int main()
+// {
+//     int n1,n2;
+//     printf("enter first number ");
+//     scanf("%d",&n1);
+//     int f=0,s=1,n=0;
+//     while(n<n1)
+//     {
+//         f=s;
+//         s=n;
+//         n=f+s;
+//     }
+//     if(n>n1)
+//     {
+//         printf("%d is not in the series....Biee",n1);
+//         return 0;
+//     }
+//     printf("enter second number ");
+//     scanf("%d",&n2);
+//     f=0,s=1,n=0;
+//     while(n<n2)
+//     {
+//         f=s;
+//         s=n;
+//         n=f+s;
+//     }
+//     if(n>n2)
+//     {
+//         printf("%d is not in the series....Biee",n2);
+//         return 0;
+//     }
+//     f=0;s=1;n=0;
+//     if(n1>n2)
+//     {
+//         int temp=n1;
+//         n1=n2;
+//         n2=temp;
+//     }
+//     while(n<=n2)
+//     {
+//         if(n>=n1)
+//         {
+//             printf("%d ",n);
+//             f=s;
+//             s=n;
+//             n=f+s;
+//         }
+//         else
+//         {
+//             f=s;
+//             s=n;
+//             n=f+s;
+//         }
+//     }
+//     return 0;
+// }
+
+// #include <stdio.h>
+// int main()
+// {
+//     int n,i,j,k,l;
+//     printf("enter the value of n ");
+//     scanf("%d",&n);
+// // first half
+//     for(i=1;i<=n;i++)
+//     {
+//         for(j=n-i;j>=1;j--)
+//             printf(" ");
+//         for(k=1;k<=i;k++)
+//             printf("%d",k);
+//         for(l=i-1;l>=1;l--)
+//             printf("%d",l);
+//         printf("\n");
+//     }
+//  //second half
+//     for(i=1;i<=n;i++)
+//     {
+//         for(j=1;j<=i;j++)
+//         {
+//             printf(" ");
+
+//         }
+//         for(k=1;k<=n-i;k++)
+//         {
+//             printf("%d",k);
+//         }
+//         for(l=n-i-1;l>=1;l--)
+//         {
+//             printf("%d",l);
+//         }
+//         printf("\n");
+//     }
+//     return 0;
+// }
+//write a program to print first n armstrong numbers.
 #include <stdio.h>
-int main()
+// #include <string.h>
+// #include <math.h>
+// #include <stdlib.h>
+
+int main() 
 {
-    int n1, n2;
-    printf("enter first number ");
-    scanf("%d", &n1);
-    int f = 0, s = 1, n;
-    n = f + s;
-    while (n < n1)
-    {
-        f = s;
-        s = n;
-        n = f + s;
-    }
-    if (n == n1)
-        printf("Yes");
-    else
-        printf("no");
+	
+    // char s[100];
+    // scanf("%[^\n]%*c", &s);
+  	
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    printf("Hello,World!\nWelcome to C programming.");
+    // printf("");
+    
     return 0;
+}
+
+
+int main ()
+{
+	char s[100];
+	fgets(s, sizeof(s), stdin);
+	printf("Hello, World!\n%s", s);
+	
+	return 0;
+}
+
+
+int main() 
+{
+	
+    char s[100];
+    fgets(s,sizeof(s),stdin);
+    printf("Hello, World!\n%s",s);
+    return 0;
+  	
 }
